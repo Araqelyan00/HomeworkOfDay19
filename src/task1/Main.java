@@ -1,4 +1,6 @@
-package com.company.task1;
+package task1;
+
+import task1.Dog;
 
 public class Main {
 

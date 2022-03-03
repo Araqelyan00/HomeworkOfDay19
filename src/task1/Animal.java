@@ -1,4 +1,4 @@
-package com.company.task1;
+package task1;
 
 public class Animal {
     protected String voice(){
