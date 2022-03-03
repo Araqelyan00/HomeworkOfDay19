@@ -1,5 +1,4 @@
-package com.company.Task1;
-import com.company.Task1.Animal;
+package com.company.task1;
 
 public class Dog extends Animal {
     @Override

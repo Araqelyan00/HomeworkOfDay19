@@ -1,20 +1,20 @@
-package Task2;
+package task2;
 
-public class TaxAccounting extends Accounting {
+public class FinancialAccount extends TaxAccounting{
     private int countOfEmployers;
     private String departmentName;
-    private static final int TAX_OF_ONE_EMPLOYER = 15;
-    public TaxAccounting() {
+    private static final int SALRY = 500;
 
+    public FinancialAccount() {
     }
 
-    public TaxAccounting(int countOfEmployers, String departmentName) {
+    public FinancialAccount(int countOfEmployers, String departmentName) {
         this.countOfEmployers = countOfEmployers;
         this.departmentName = departmentName;
     }
 
     @Override
-    public int getCountOfEmployers(){
+    public int getCountOfEmployers() {
         return countOfEmployers;
     }
 
@@ -35,6 +35,6 @@ public class TaxAccounting extends Accounting {
 
     @Override
     public int account() {
-        return this.countOfEmployers * TAX_OF_ONE_EMPLOYER;
+        return countOfEmployers * SALRY;
     }
 }

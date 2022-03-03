@@ -1,6 +1,4 @@
-package Task2;
-
-import java.util.PrimitiveIterator;
+package task2;
 
 public class Accounting {
     private int countOfEmployers;
